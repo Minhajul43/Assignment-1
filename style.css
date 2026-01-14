@@ -7,10 +7,12 @@
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
 }
 /* navber styles */
 .nav-container{
+  width: 100%;
+  height: 65px;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -129,5 +131,40 @@
     color: #FFFFFF;
     
 }
+/* design card and title */
+.note{
+  text-align: center;
+  margin-top: 30px;
+}
+.note-title h2{
+  font-weight: 48px;
+  font-size: 800;
+}
+.note-subtitle p{
+  margin-top: 16px;
+  font-weight: 10px;
+  font-size: 10px;
+  line-height: 10px;
+}
+.note-cards{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  padding:24px 120px;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+}
 
+.note-card{
+  border: 1px solid whitesmoke;
+  background:#abaaaa0d;
+  
+}
+.note-card img{
+  margin-top: 24px;
+  align-items: center;
+  border-radius: 100%;
+  background:rgba(249, 85, 85, 1);
+}
 
