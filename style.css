@@ -7,9 +7,10 @@
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  color: #FFFFFF;
 }
 /* navber styles */
-.container{
+.nav-container{
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -35,3 +36,98 @@
   border-radius: 5px;
   padding:10px 20px;
 }
+
+/* hero section styles */
+.hero {
+     text-align: center;
+    justify-content: space-around;
+    position: relative;
+    height: 100vh;
+    background: url("assets/hero-bg.png");
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    color: #FFFFFF;
+}
+
+/*For Dark overlay */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background:rgba(26, 57, 86, 0.415);
+}
+
+/*Hero Content */
+.hero-content {
+    position: relative;
+    max-width: 700px;
+}
+
+/* Early Access Button */
+.access {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #FFFFFF;
+    color: #469165;
+    padding: 6px 14px;
+    border-radius: 1000px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.access .dot {
+    width: 8px;
+    height: 8px;
+    background: #469165;
+    border-radius: 50%;
+}
+
+/* Hero Heading */
+.hero-content h1 {
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-content h1 span {
+    color: #30B868;
+}
+
+/* Hero Paragraph */
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+
+/* Hero Buttons */
+.buttons {
+    align-items: right;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 14px 26px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn.primary {
+    background: #469165;
+    color: white;
+}
+
+
+.btn.secondary {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    
+}
+
+
