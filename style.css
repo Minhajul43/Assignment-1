@@ -7,7 +7,6 @@
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  /* color: #FFFFFF; */
 }
 /* navber styles */
 .nav-container{
@@ -136,11 +135,11 @@
   text-align: center;
   margin-top: 30px;
 }
-.note-title h2, .brain-content h2{
+.note-title h2, .brain-content h2, .early-access-content h2{
   font-weight: 48px;
   font-size: 800;
 }
-.note-subtitle p, .note-card p, .brain-description p{
+.note-subtitle p, .note-card p, .brain-description p, .early-access-content p{
   margin-top: 16px;
   font-weight: 10px;
   font-size: 10px;
@@ -179,9 +178,6 @@
   display: flex;
   justify-content: space-around;
   padding: 100px 120px;
-  /* align-items: center; */
-  /* height: 500px; */
-
 }
 
 .brain-image{
@@ -192,17 +188,30 @@
 }
 
 .brain-content{
-  margin: 40px;
+  vertical-align: middle;
+  margin: 40px 10px;
+}
+.brain-content .head{
+  font-size: 16px;
+  color: #469165;
+  font-weight: 600;
+}
+.brain-content .cheak{
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.6;
+  gap: 16px;
+}
+.brain-content h2{
+  margin-bottom: 24px;
 }
 
 .brain-content h6{
+  margin-bottom: 40px;
   font-size: 16px;
-  color: #4CAF50;
+  color: #469165;
 }
 
-/* .brain-content h2{
-  font-weight: 48px;
-} */
 
 .cheak {
   list-style: none;
@@ -210,3 +219,37 @@
   font-size: 400;
   font-weight: 16px;
 }
+
+
+/* Early Access Section design */
+.early-access {
+  background: #F7F6F2;
+  padding:120px;  
+  margin: 30px 120px;
+  text-align: center;
+}
+
+.early-access-content p {
+  
+  margin: 16px;
+  line-height: 1.6;
+}
+
+/* design footer part */
+.footer {
+  background: #001931;
+  color: #FFFFFF;
+  padding: 40px 120px;
+  text-align: center;
+}
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer p {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
