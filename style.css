@@ -136,11 +136,11 @@
   text-align: center;
   margin-top: 30px;
 }
-.note-title h2{
+.note-title h2, .brain-content h2{
   font-weight: 48px;
   font-size: 800;
 }
-.note-subtitle p{
+.note-subtitle p, .note-card p, .brain-description p{
   margin-top: 16px;
   font-weight: 10px;
   font-size: 10px;
@@ -149,16 +149,21 @@
 .note-cards{
   margin-top: 24px;
   display: flex;
+  justify-content: center;
   flex-direction: row;
   padding:24px 120px;
   gap: 24px;
   width: 100%;
-  height: 100%;
+  height: 100px;
 }
 
 .note-card{
+  width: 250px;
+  height: 250px;
   border: 1px solid whitesmoke;
-  background:#abaaaa0d;
+  background: #abaaaa0d;
+  border-radius: 8px;
+  margin-bottom: 40px;
   
 }
 .note-card img{
@@ -168,3 +173,40 @@
   background:rgba(249, 85, 85, 1);
 }
 
+/* design second brain section */
+.brain{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 120px;
+  /* align-items: center; */
+  /* height: 500px; */
+
+}
+
+.brain-image{
+  margin-top: 24px;
+  width: 600px;
+  height: 600px;
+  background: #abaaaa0d;
+}
+
+.brain-content{
+  margin: 40px;
+}
+
+.brain-content h6{
+  font-size: 16px;
+  color: #4CAF50;
+}
+
+/* .brain-content h2{
+  font-weight: 48px;
+} */
+
+.cheak {
+  list-style: none;
+  margin-top: 24px;
+  font-size: 400;
+  font-weight: 16px;
+}
